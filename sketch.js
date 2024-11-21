@@ -76,7 +76,7 @@ class TruchetTile {
     context.strokeStyle = color;
   }
 
-  draw(context, color) {
+  draw = (context, color) => {
     context.translate(this.posX, this.posY);
 
     const strokeWeight = 32;
